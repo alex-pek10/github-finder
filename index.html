@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.3/slate/bootstrap.min.css"
+      integrity="sha512-Dfbzfu79H8lYHUElioPvezFPJI+wFlG4uP4tbHlRkrIhlyVzp/8sh2LQ7GmQz1+vIO9J6c/HUK5VfsMFM19piA=="
+      crossorigin="anonymous"
+    />
+
+    <title>GitHub Finder</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">GitHub Finder</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Search GitHub Users</h1>
+        <p class="lead">Enter a username to fetch a user's profile and repos</p>
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="GitHub Username"
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center">
+      GitHub Finder &copy; 2020 - Alex Myers
+    </footer>
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
