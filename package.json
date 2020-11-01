@@ -1,0 +1,19 @@
+{
+  "name": "github-finder",
+  "version": "1.0.0",
+  "description": "Find GitHub users and their repositories",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-pek10/github-finder.git"
+  },
+  "author": "Alex Myers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-pek10/github-finder/issues"
+  },
+  "homepage": "https://github.com/alex-pek10/github-finder#readme"
+}
